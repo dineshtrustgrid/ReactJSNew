@@ -25,7 +25,7 @@ class Order extends React.Component {
 
         <h1>
           {productinfo.map((product) => (
-            <li key={product.productID}> Product ID {product.productID}</li>
+            <li key={product.productID}> Product ID {product.productID} ,Quantity {product.quantity}, Product price {product.productPrice}</li>
           ))}
         </h1>
       </>
