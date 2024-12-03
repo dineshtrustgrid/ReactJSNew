@@ -1,0 +1,39 @@
+To create Package.json file we need use "npm init " command 
+package.json file contain information of dependency in a project.
+parcel is a bundler. bundler means it will combine all the files and it will generate one single file.
+TO install parcel we need to run " npm i -D parcel " i - stands for install
+the MOment run npm i parcel command  it will install node_modules folder and it will also install package-lock.json file
+node_modules folder contain all the dependencies.
+package-lock.json will lock the file with all installed all the dependencies versions.
+
+-D - means devdependencies it means dependencies which we need in development
+dependencies - means it will used in development and production environment.
+npm - No Abbreviation for NPM but earlier it use to call it as " Node Package Manager"
+URL for NPM = https://www.npmjs.com/
+NPM helps us to download the dependencies in the project.
+
+To run Project " npx parcel index.html" 
+
+"devDependencies": {
+    "parcel": "^2.13.0", // parcel bundler dependencies 
+    "process": "^0.11.10"
+  },
+
+  ^ - caret symbol it denotes that it will automatically update the minor version
+  ~ tilde version it denotes that it will automatically update the major version
+
+Difference between caret / tilde in package .json file.
+
+if we use react CDN links it will hit the URL which is quite expensive in terms of network call
+
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+instead of that we can download the dependencies in our local machine with the help of NPM
+
+
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+we need React because we can create web Application and mobile Application
+We need ReactDOM only while working with Web Application

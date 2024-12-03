@@ -1,0 +1,10 @@
+JSX Expression 
+if we need to display javascript code with JSX then we need to display javascript with curly braces {}
+this curly brace is known as JSX Expression 
+
+at the end JSX will be converted to React.createElement() and React.createElement() will be converted to javascript
+
+important Note:
+JSX will be converted to React.createElement() by Babel 
+Babel is a transcompiler 
+the moment we install parcel bundler with help of npm i -D parcel command automatically it installs Babel .

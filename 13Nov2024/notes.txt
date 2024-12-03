@@ -1,0 +1,41 @@
+step1 : create a folder 
+step2 : open the terminal and cd foldername/ project name
+step3 : npm i webpack-cli  will create a followings
+    1. create node_modules folder
+    2. package.json file
+    3. package-lock.json file
+
+steps 4 : npx webpack init  // and it will ask set of questions 
+
+? Which of the following JS solutions do you want to use? ES6
+? Do you want to use webpack-dev-server? Yes
+? Do you want to simplify the creation of HTML files for your bundle? Yes
+? Do you want to add PWA support? No
+? Which of the following CSS solutions do you want to use? CSS only
+? Will you be using PostCSS in your project? No
+? Do you want to extract CSS for every file? No
+? Do you like to install prettier to format generated configuration? No
+? Pick a package manager: npm
+[webpack-cli] ℹ INFO  Initialising project...
+ conflict package.json
+? Overwrite package.json? overwrite
+? Pick a package manager: npm
+[webpack-cli] ℹ INFO  Initialising project...
+ conflict package.json
+? Overwrite package.json? overwrite
+[webpack-cli] ℹ INFO  Initialising project...
+ conflict package.json
+? Overwrite package.json? overwrite
+ conflict package.json
+? Overwrite package.json? overwrite
+? Overwrite package.json? overwrite
+    force package.json
+   create src\index.js
+   create README.md
+   create README.md
+   create index.html
+   create index.html
+   create webpack.config.js
+   create .babelrc
+
+

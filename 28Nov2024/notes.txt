@@ -1,0 +1,6 @@
+// In React props is an Object
+// 
+// root.render(new Student({id:"101", sname:"vinod"}).render());
+
+whenever  object is created and we pass the some parameters and its direclty called
+constructor 

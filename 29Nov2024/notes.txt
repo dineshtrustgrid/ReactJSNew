@@ -1,0 +1,3 @@
+// props is an object
+// props is parcel that exchange between two components.
+// props is read only and we can't modify or update.
