@@ -1,9 +1,41 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
+import PropTypes from "prop-types";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 class Order extends React.Component {
+
+    static propTypes ={
+      order : PropTypes.shape(
+        {
+        customer : PropTypes.shape(
+
+        {
+          customerID : PropTypes.number.isRequired,
+          customerName : PropTypes.string.isRequired,
+          customerAddress : PropTypes.string.isRequired
+
+        }),
+        shipping:PropTypes.shape({
+          shipID:PropTypes.number.isRequired,
+          shipAddress :PropTypes.number.isRequired
+        }
+      ),
+      lineItems : PropTypes.arrayOf(
+        PropTypes.shape(
+          {
+            productID : PropTypes.number.isRequired,
+            quantity : PropTypes.number.isRequired,
+            productPrice : PropTypes.number.isRequired
+          }
+        )
+    )
+
+
+
+    })
+  }
+
   constructor(props) {
     super(props);
   }
@@ -36,6 +68,10 @@ class Order extends React.Component {
             ))}
           </tbody>
         </table>
+
+
+        <h1> Shipping ID : { this.props.order.shipping.shipID}</h1>
+        <h1> Shipping Address : { this.props.order.shipping.shipAddress}</h1>
       </>
     );
   }
@@ -43,12 +79,17 @@ class Order extends React.Component {
 
 const orderDetails = {
   customer: {
-    customerID: 123,
+    customerID: "123",
     customerName: "Vinod",
     customerAddress: "Andhra",
   },
+  shipping:{
+    shipID:123,
+    shipAddress:"Mumbai"
+  },
+  
   lineItems: [
-    { productID: 100001, quantity: 10, productPrice: 2000.0 },
+    { productID: 100001, quantity: 1, productPrice: 2000.0 },
     { productID: 100002, quantity: 5, productPrice: 5000 },
   ],
 };

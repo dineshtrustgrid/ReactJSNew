@@ -1,0 +1,26 @@
+// shape 
+
+shape means - It represent the exact Shape of an object.
+
+ex : order is a refer as Props and it contains customer Object and lineItems is arrayof Object.
+
+static propTypes ={
+      order :PropTypes.shape(
+        {
+          customerID :PropTypes.number.isRequired,
+          customerName :PropTypes.string.isRequired,
+          customerAddress : PropTypes.string.isRequired
+
+        }
+      ),
+      lineItems : PropTypes.arrayOf(
+        PropTypes.shape(
+          {
+            productID : PropTypes.number.isRequired,
+            quantity : PropTypes.number.isRequired,
+            productPrice : PropTypes.number.isRequired
+          }
+        )
+      )
+
+}
