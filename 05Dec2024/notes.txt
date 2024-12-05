@@ -1,0 +1,30 @@
+// 05Dec2024
+
+// module.exports = valueOne
+//  - it one of the way to exports the variable / function using module
+
+// const valueone = require('./indexOne.js');
+
+// - one of the way to import the file from other file by using require function
+
+// In order to run javascript ,we can use "node command followed by filename.js" node indexTwo.js
+
+accessing more than one data , if we need to access the more than one data
+ while exporting use curly braces { data1,data2,etc}
+
+module.exports = { 
+    add,
+    userId,
+     }
+
+ module.exports = {
+//     a : add,
+//     b : userId
+// }
+
+ - one of the way to export
+ we can use key value pair like this to export the data
+{a: add , b: userId }
+
+module.exports , require these concepts are called as common JS ,it only used in Node Environment
+and we cannot use it web Browser . for use both in Node , Web browser Environment ,we use ESM
