@@ -1,13 +1,13 @@
 
-export  const userName = "Vinod";
+export  const userName = "Vinod"; //  named parameter should use in curly braces
 
 export default function sayHello(){
 
     console.log(" Hello ");
 }
 
-// default shouls only one and we can have more than one non default in javascript
+// default should only one and we can have more than one non default in javascript
 // non default is called as named parameters / exports
-// ESM - Ecma script module in Node environment .
-
+// ESM - ECMA script module in Node environment .
+// export default - parameter 
 

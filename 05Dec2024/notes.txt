@@ -27,4 +27,4 @@ module.exports = {
 {a: add , b: userId }
 
 module.exports , require these concepts are called as common JS ,it only used in Node Environment
-and we cannot use it web Browser . for use both in Node , Web browser Environment ,we use ESM
+and we cannot use it web Browser . for use both in Node , Web browser Environment ,we use ESM 

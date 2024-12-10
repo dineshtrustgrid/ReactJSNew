@@ -1,0 +1,9 @@
+//
+ <button onClick={this.increase.bind(this)}> Hit Me !!!</button>
+
+ in order use bind function
+ // StateComponent forgotten the current Object itself , 
+ in order to remember itself ,we need to use bind function.
+ 
+// initialize the state value in constructor
+ setState() is an function and we use to update the state values 
