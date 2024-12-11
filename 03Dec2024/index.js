@@ -32,7 +32,7 @@ class Order extends React.Component {
     )
 
 
-
+    
     })
   }
 
