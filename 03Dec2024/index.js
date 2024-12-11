@@ -18,7 +18,7 @@ class Order extends React.Component {
         }),
         shipping:PropTypes.shape({
           shipID:PropTypes.number.isRequired,
-          shipAddress :PropTypes.number.isRequired
+          shipAddress :PropTypes.string.isRequired
         }
       ),
       lineItems : PropTypes.arrayOf(
@@ -79,7 +79,7 @@ class Order extends React.Component {
 
 const orderDetails = {
   customer: {
-    customerID: "123",
+    customerID: 123,
     customerName: "Vinod",
     customerAddress: "Andhra",
   },
