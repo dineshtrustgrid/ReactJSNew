@@ -1,0 +1,18 @@
+// normal variable 
+
+// 
+
+ count = 0; // its normal variable 
+ count = 1 ; // state variable 
+
+if we try to update the state variable count using setstate function and it will not affect the normal variable count
+
+    constructor(props){
+        super(props);
+
+        this.state = {
+            counter : 0,
+            count : 1,
+            value : 100
+        }
+    }
