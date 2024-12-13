@@ -1,0 +1,15 @@
+const printDetails = <h1 className="info">user ID is {userID} and username is {userName}</h1>; // JSX 
+what Babel does it converts JSX to React.createElement()
+const printDetails = React.createElement("h1" , {className:"info"},"user ID is", userID ,"and username is", userName)
+wat React does it converts React.createElement() to javascript object
+const printDetails = { 
+    type = "h1",
+} 
+
+JSX attributes will be written in CamelCase.
+FOR example :
+
+class will be written as className 
+background-color will written as backgroundColor
+
+In JSX expression if we use HTML attribute ,we will get an error

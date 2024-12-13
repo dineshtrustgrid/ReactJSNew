@@ -1,0 +1,26 @@
+In the Index.js file we have written the following
+const headOne = <h1 id ="headOne"> HeadOne </h1>;
+the above code is not an HTML but it is JSX .
+JSX stands for Javascript for XML it looks like HTML but at the end it is Javascript.
+JSX at the end is converted to React.createElement("")
+
+const headTwo= <div>
+<h1> headingOne inside h1Tag</h1>
+<h2> HeadingTwo Inside h2 Tag</h2>
+<p> Paragraph Tag inside P Tag </p>
+</div>
+
+// already we are targeting the <div id = "root"> is top most parent 
+and inside we have created an extra div which has 3 kids i.e. h1, h2 and p tag.
+so in order to avoid the extra div tag
+we can use the empty <> </>
+so that there will be only one div parent tag
+and it will have 3 kids
+
+the empty tags are called as "React.Fragment"
+
+Important Note:
+
+In JSX, if we are writing the multiple tags
+then it must contain a parent tag
+

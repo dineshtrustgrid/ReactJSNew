@@ -1,0 +1,12 @@
+//what is component ? Component is User interface 
+// if we need to create component in react :
+There are two ways :
+1. By class approach that is called class component
+2. By function approach that is functional component
+
+Class component
+In React , if we want to create any component by using Class approach ,then our component 
+must extends React.Component
+
+
+

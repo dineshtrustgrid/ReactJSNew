@@ -1,0 +1,22 @@
+
+increase() method , we need to provide bind function explicity to remember the value .
+decrease () =>{} in lambda function ,it automatically binds itself ,so no need to use bind function.
+
+important Note:
+1.Inside class if we define or declare lambda or fat arrow function ,
+then it will create multiple copies of object .In short if 10 thousand object are created ,it means 
+10 thousand lambda function created thats a drawback of lambda function inside class.
+
+bind(this) and lambda function will create multiple copies ,TO avoid this issue , declare the bind function in 
+constructor and use it .
+
+constructor(props){
+        super(props);
+        this.state = {
+            counter: 0
+        }
+        this.vinod = this.increment.bind(this); // single copy 
+        this.decrease = this.decrement.bind(this); // single copy 
+    }
+
+    
