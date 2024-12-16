@@ -14,6 +14,7 @@ class ComponentLifeCyle extends React.Component{
         
 
     }
+
     static getDerivedStateFromProps(){
        
         console.log("GetDerivedStateFromProps called");
