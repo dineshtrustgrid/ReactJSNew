@@ -1,0 +1,39 @@
+// import {Component} from "react";
+
+import ReactDOM from "react-dom/client";
+
+class PersonComponent extends Component{
+}
+
+in above code snippet PersonComponent extend Component instead of React.Component 
+React.Component Or Component both are same
+but Component is Named paramerter declared inside curly brace {}
+React.Component is export default paramerter.
+
+import {Component} from "react";
+
+import ReactDOM from "react-dom/client";
+
+class PersonComponent extends Component{
+
+    constructor(props){
+        super(props);
+
+    }
+
+
+    render(){
+
+        return (
+            <>
+                <h1> personComponent </h1>
+                <h2>ID : {this.props.id}</h2>
+                <h3> Name : {this.props.uname}</h3>
+            </>
+        )
+    }
+}
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(<PersonComponent id={124} uname="Vinod Gowda"/>);
