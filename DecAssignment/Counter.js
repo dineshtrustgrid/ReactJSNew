@@ -4,6 +4,7 @@ import { Component } from "react";
 class Counter extends Component {
   constructor(props) {
     super(props);
+    console.log("counter JS ", props);
     this.state = { count: props.initialCount };
   }
 
@@ -14,12 +15,15 @@ class Counter extends Component {
     }
     return null;
   }
+  
 
   render() {
+
+    const {value}=this.state.count
     console.log(" Render ");
     return (
       <>
-        <h1> Counter value : {this.state.count}</h1>
+        <h1> Counter value : {value}</h1>
       </>
     );
   }

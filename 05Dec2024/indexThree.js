@@ -7,7 +7,7 @@ export default function sayHello(){
 }
 
 // default should only one and we can have more than one non default in javascript
-// non default is called as named parameters / exports
+// non default is called as named parameters / export
 // ESM - ECMA script module in Node environment .
 // export default - parameter 
 

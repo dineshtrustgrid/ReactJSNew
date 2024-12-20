@@ -4,6 +4,7 @@ import Counter from "./Counter";
 class App extends Component {
   constructor(props) {
     super(props);
+    console.log("App JS props",props);
     this.increaseCount = this.increaseCount.bind(this);
   }
 
@@ -13,10 +14,11 @@ class App extends Component {
   }
 
   render() {
+    const {countvalue}=this.state.count;
     return (
       <>
         <h1> APP Component</h1>
-        <Counter initialCount={this.state.count} />
+        <Counter initialCount={countvalue} /> 
         <button onClick={this.increaseCount}>
           
           Increment Count

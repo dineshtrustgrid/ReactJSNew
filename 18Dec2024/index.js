@@ -57,8 +57,9 @@ class App extends Component {
     super(props);
     this.increaseCount = this.increaseCount.bind(this);
   }
-
+  
   state = { count: 0 };
+  
   increaseCount() {
     this.setState({ count: this.state.count + 1 });
   }
