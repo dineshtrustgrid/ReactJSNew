@@ -1,12 +1,12 @@
 import React from "react";
 // import ReactDOM from "react-dom/client";
 
-export const element = <span> React Element </span>; // This REact Element
+export const element = <span> React Element </span>; // This REact Element and it converted to React.createElement()
 
-export const myTitle = <h1> THis is H1 Tag </h1>; // This is also React Element
+export const myTitle = <h1> THis is H1 Tag </h1>; // This REact Element and it converted to React.createElement()
 
 export const Title = function () {
-  // It is REact Function Component
+  // It is REact Function Component , one of the way to create function component
 
   return (
     <>
@@ -15,15 +15,18 @@ export const Title = function () {
   );
 };
 
-export const userName = "Jordan walke";
+export const userName = "Jordan walke"; // normal variable 
 
 const HeadingComponent = () => (
  <div id="functionComponent">
-    {userName}
-    {myTitle}
-    {element}
-    <Title />
+    {userName} {/*  JSX expression */}
+    {myTitle} {/*  JSX expression */}
+    {element}  {/*  JSX expression */}
+    <Title />  {/*  Component composition - means Render <Title /> when we are composing component inside other Component */}
+    <Title> </Title>
+    { Title() } {/*  We can call like function also at the end because it is function */}
     <h1 className="headingone">This is Heading Component </h1>
+
   </div>
 );
 
