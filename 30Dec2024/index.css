@@ -1,0 +1,23 @@
+div p {  
+    color: orange;
+}
+
+div > p {
+    color: blue;
+}
+
+div + span {
+    background-color: aqua;
+}
+
+div ~ p {
+    background-color: blue;
+}
+
+/* label ,b {
+    background-color: blueviolet;
+} */
+
+label ,div + span ,#header {
+    background-color: black;
+}
