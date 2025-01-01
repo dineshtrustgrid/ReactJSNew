@@ -2,7 +2,7 @@ whenever we need to apply the style more one the element / tags
 It is called as CSS Combinators.
 
 When we write div space and second is <P> or it can any tag 
-then style will appply to child , grandchild of <P> tag .
+then style will apply to child , grandchild of <P> tag .
 
 div p {  
     color: orange;
@@ -12,6 +12,8 @@ div > p {} it means style will apply to direct child of div Tag
 and it ignore the grand child tag .
 
 div + span : here + sign denotes immediate next of div tag is span.
+
+div ~ p 
 
 + and ~ is works with siblings
 

@@ -1,0 +1,15 @@
+h1 {
+    text-decoration: underline red dotted;
+}
+
+h2 {
+    text-decoration: line-through green dashed;
+}
+
+p {
+    text-decoration: overline blue;
+}
+
+a {
+    text-decoration: none;
+}

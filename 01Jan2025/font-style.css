@@ -1,0 +1,16 @@
+
+ h1 {
+    font-style: italic;
+}
+
+h2 {
+    font-style: oblique;
+}
+
+p{
+    font-style: oblique 10deg;
+} 
+
+a {
+    font-style: italic;
+}

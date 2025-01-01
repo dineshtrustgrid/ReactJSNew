@@ -6,7 +6,7 @@ div > p {
     color: blue;
 }
 
-div + span {
+div + span { 
     background-color: aqua;
 }
 

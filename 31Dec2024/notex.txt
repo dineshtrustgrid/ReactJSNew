@@ -1,0 +1,18 @@
+Font weight - It sets thickness of The Text character
+example : font-weight : bold  
+where font-weight is a property and bold is a value 
+people often use value for font weight like 100,200, 300, 400, 500,600,700,800,900.
+400 - normal value (default for text)
+500 - medium value 
+700 - bold value (default value for headings)
+
+Text decoration 
+
+it sets decorative line on the text.
+
+example : text-decoration : underline blue dotted;
+where : Text-decoration is property and underline is the line value and blue color and dotted is  styled line.
+
+<a href="https://www.google.com"> Google link </a>
+
+anchor tag underline is default value.

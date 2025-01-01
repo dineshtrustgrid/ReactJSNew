@@ -1,0 +1,30 @@
+Font style - It set the style of Font
+example : font-style : italic
+
+For the font style the values which we can use are normal , italic,oblique,oblique 10deg 
+
+default value for the font style  is normal 
+
+font style it can be sometime used to draw attention it is better to prefer to using font weight
+
+Text Transform :
+
+It set the capitalization of text .
+example : text-transform : uppercase;
+
+value of text transform are" none " uppercase, lowercase ,Capitalize
+
+where none is the default value for text-transform
+
+Capitalize - means first letter of each word is capital .
+
+List style :
+---------------
+
+It set the style of list 
+example : list-style :  disc 
+    values of list-style are none,disc ,circle ,square,decimal
+
+    disc is default value for unordered list
+    decimal is defaul value for ordered list
+
