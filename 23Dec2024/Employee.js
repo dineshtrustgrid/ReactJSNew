@@ -39,9 +39,9 @@
 // In function component always pass props as parameter in function declaration /function defnition / Fat Arrow function 
 // In Fat arrow function , this keyword doesnt ,have it own lexical environment.
 
-const EmployeeOne = (props) => { 
+const EmployeeOne = (props) => {
 
-    console.log("props",props);
+   console.log("props",props);
     
     const {eid, ename } = props; 
 

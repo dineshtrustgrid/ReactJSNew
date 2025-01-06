@@ -1,0 +1,13 @@
+Here we have used Props ,state ,Event Handling using Functional COmponenet
+
+while designing our component using functional component it takes props as parameter
+while working with functional component if we need to work with state then we need to use 
+useState() hook
+
+In React, Hook means Function .useState(intital value); here useState is fucntion 
+which accepts intial value in its parameter for the state variable and state variable will be keep on updating 
+with help of setCount() function 
+
+useState() - function returns the variable and fucntion in the form of array destructing.
+
+const [count,setCount] = useState(value); // array destructing 

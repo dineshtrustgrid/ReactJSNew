@@ -1,0 +1,39 @@
+Text align - It specify the horizontal alignment of text within an element.
+example : text-align : center
+
+there are 4 text align values : left ,right ,center, justify
+
+important note : the default text align value is left .It means if we dont assign any value 
+to text-align property in a html element will assign to left.
+
+when we give text-align : center is often use for headings
+when we give text-align : justify ,where every line in paragraph takes up full width of container box.
+
+Important Note : 
+Html file 
+<body>
+    <h1> Text ALign ONe Style </h1>
+    <a href="https://www.amazon.in"> AMAZON  E-COmmerce HOme APpliances Electonic SHopping </a>
+</body>
+
+css File 
+
+h1 ,a {
+    text-align: right;
+}
+
+Since <h1> is block level Element that means by default it will occupy full width of webbrowser .
+<a> tag is Inline element  that means it will occupy only that amount of width of the content.
+
+Block level ELement we can move to right as well ,bcoz it occupy full width of webbrowser
+Inline Element we cant move to right side , it occupy the content width .
+
+Inline Elements we can give  next to next and its shows in same line 
+Block level element always shows in New Line .
+
+<div>, <p>, <h1> to <h6>, and <ul> - Block level element
+
+<span>, <a>, <strong>, and <em> - Inline level
+
+important note for text align : justify 
+    Dont justify text , long block of text should be left align and dont center large block of text .

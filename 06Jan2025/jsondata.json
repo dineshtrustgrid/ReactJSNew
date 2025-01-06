@@ -1,0 +1,27 @@
+{
+    "restaurants": [
+      {
+        "id": 1,
+        "name": "Pizza Palace",
+        "cuisine": ["Italian", "Fast Food"],
+        "rating": 4.5,
+        "deliveryTime": "30 mins",
+        "menu": [
+          { "id": 101, "name": "Margherita Pizza", "price": 250 },
+          { "id": 102, "name": "Pepperoni Pizza", "price": 300 }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Burger Barn",
+        "cuisine": ["American", "Fast Food"],
+        "rating": 4.3,
+        "deliveryTime": "25 mins",
+        "menu": [
+          { "id": 201, "name": "Classic Cheeseburger", "price": 200 },
+          { "id": 202, "name": "Veggie Burger", "price": 180 }
+        ]
+      }
+    ]
+  }
+  

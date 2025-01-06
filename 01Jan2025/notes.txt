@@ -12,7 +12,7 @@ Text Transform :
 It set the capitalization of text .
 example : text-transform : uppercase;
 
-value of text transform are" none " uppercase, lowercase ,Capitalize
+value of text transform are"none" uppercase, lowercase ,Capitalize
 
 where none is the default value for text-transform
 

@@ -1,8 +1,11 @@
 
 import React from "react"
 
-const RestaurantCard = ({brandName, rating, duration}) => (
-    // const {brandName, rating, duration} = props;
+const RestaurantCard = (props) => {
+     const {brandName, rating, duration} = props;
+
+  return(
+
    <div className="res-card">
    
      <img
@@ -17,6 +20,7 @@ const RestaurantCard = ({brandName, rating, duration}) => (
      <h4> ⭐{rating}</h4>
      <h4>{duration}</h4>
    </div>
- )
+  )
+}
  
  export default RestaurantCard;
