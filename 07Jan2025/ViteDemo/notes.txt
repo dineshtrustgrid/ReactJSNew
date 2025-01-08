@@ -1,0 +1,11 @@
+step 1 : npm create vite
+step 2 : project name  
+step 3 : select frame work - React
+step4 : select variant - javascript
+
+project structure is create
+in terminal type cd projectname
+write npm install - it will install all packages
+
+to run application - npm run dev
+
