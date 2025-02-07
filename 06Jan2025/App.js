@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 
-import jsondata from "./jsondata.json";
+// import jsondata from "./jsondata.json";
 
 
 const App = () => {
-  const mockData = {
-    restaurants: [
+ 
+  // const mockData = {
+    const  restaurants = [
       {
         id: 1,
         name: "Pizza Palace",
@@ -28,45 +29,20 @@ const App = () => {
           { id: 202, name: "Veggie Burger", price: 180 },
         ],
       },
-    ],
-  };
+    ]
+  // };
 
-  console.log("mock Data",mockData);
+//   const [data,setData]=useState([mockData]);
+//  console.log("use State Data",data);
+
+ const [jsondata] = [...restaurants];
+ console.log("Jsondata",jsondata);
   return (
     <div>
-      <h1> Restaurant Details </h1>
-      {mockData.restaurants.map((restaurant) => {
-        console.log("restaurantdata",restaurant);
-        {/*  callback function return value */}
-        return( 
-          <div key={restaurant.id} style={{border:"1px solid black ",margin:"10px" , padding:"10px"}}>
-          <h2> {restaurant.name} </h2>
-          <b> cuisine : {restaurant.cuisine.join(",")}</b>
-          <b> Rating : {restaurant.rating}</b>
-          <b> Delivery Time : {restaurant.deliveryTime}</b>
-          <h3>
-           
-            Menu :
-            
-            <ul>
-              {restaurant.menu.map((item) => {
-                return(
-                <li key={item.id}>
-                 
-                  {item.name} - Price : $ {item.price}
-                </li>
-                );
-              })}
-            </ul>
-          </h3>
-          </div>
-        )
-        
-      })}
-
+      <h1> Restaurtant details </h1>
       <h3> Read Data from Json File </h3>
 
-      {jsondata.restaurants.map((restaurant)=>(
+      {jsondata.map((restaurant)=>(
         <div key={restaurant.id} style={{border:"1px solid black ",margin:"10px" , padding:"10px"}}>
         <h2> {restaurant.name} </h2>
           <b> cuisine : {restaurant.cuisine}</b>
@@ -80,12 +56,26 @@ const App = () => {
               ))}
             </ul>
           </h3>
-
         </div>
-        
-
       ))
       }
+
+      {/* {data.map((restaurant)=>{
+
+        return(
+          <div key={restaurant.id}>
+        <p>Restaurtant ID :  {restaurant.id}</p>
+        </div>
+
+        ) 
+        
+
+      }
+
+       
+    )}*/}
+
+
     </div>
 
       );

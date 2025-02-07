@@ -1,0 +1,27 @@
+Position : absolute :
+It measns element will go to top POsition and will watch from top 
+
+top , left , right property will work only on "Position"
+
+POsition relative :
+
+ Box - child present inside Box - Parent 
+
+ Box-parent - relative
+ Box-child - absolute
+
+ Box-child will not move outside of Box -parent 
+
+ ------------------------------------
+
+it we dont specify the relative to BOx-parent ,then Box-child will move top of Box -parent
+
+position : absolute
+position : relative
+
+note : if we keep on increasing the left ,right,top ,bottom direction 
+it come out from relative
+
+
+
+

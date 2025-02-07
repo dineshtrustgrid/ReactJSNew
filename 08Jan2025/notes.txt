@@ -1,0 +1,6 @@
+// Nullish Coalesing operator or Null coalesing operator
+// it was introduced in ECMAscript 2020.
+// the null coalesing is written as "??"
+// the null coalesing operator is a javascript operator that is use to provide the default value to a variable that may be null or undefined.
+// in javascript  the following values are consider as falsy value => false , 0, '' ,null,undefined and NaN(not an number).
+// 

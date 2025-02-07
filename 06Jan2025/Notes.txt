@@ -1,0 +1,11 @@
+// UseEffect will execute after Each rendering function.
+
+Use case : 
+
+SOme body enter the Gamil ID and logged in and it validate the Profile and then it will
+display the respective user details/ dashboard .
+
+useEffect hook is combined of componentDidmount() ,componentDidUpdate(),componentWillUnmount()
+useEffect = componentDidmount + componentDidUpdate + componentWillUnmount function
+
+

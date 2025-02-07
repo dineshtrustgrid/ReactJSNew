@@ -1,0 +1,14 @@
+// 16 Jan 2025
+
+We had Json data saved it in jsondata.json file
+In order to make it available for others we have moved Jsondata file to public folder of Vite Demo (07Jan2025 folder)
+In order to test whether , jsondata is available to public or not .we need to run server npm run dev.
+URL : http://localhost:5173/jsondata.json
+if it gives ,Json data available to everyone
+
+this is how we produced the Json data .
+
+In order to Consume the Jsondata we have used different project (06Jan2025) and try to access the Json data 
+with the help of fetch("http://localhost:5173/jsondata.json") .then().catch()
+
+to run this project : npm start ( It is parcel project ).

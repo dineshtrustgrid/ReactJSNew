@@ -1,0 +1,29 @@
+{/* <h1> Restaurant Details </h1>
+      {mockData.restaurants.map((restaurant) => {
+        console.log("restaurantdata",restaurant);
+        {/*  callback function return value */}
+        return( 
+          <div key={restaurant.id} style={{border:"1px solid black ",margin:"10px" , padding:"10px"}}>
+          <h2> {restaurant.name} </h2>
+          <b> cuisine : {restaurant.cuisine.join(",")}</b>
+          <b> Rating : {restaurant.rating}</b>
+          <b> Delivery Time : {restaurant.deliveryTime}</b>
+          <h3>
+           
+            Menu :
+            
+            <ul>
+              {restaurant.menu.map((item) => {
+                return(
+                <li key={item.id}>
+                 
+                  {item.name} - Price : $ {item.price}
+                </li>
+                );
+              })}
+            </ul>
+          </h3>
+          </div>
+        )
+        
+      })} */}

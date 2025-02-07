@@ -21,7 +21,6 @@ export default class Counter extends React.Component{
 
     // }
 
-
     decrement(){
         this.setState({counter: this.state.counter -1 });
     }

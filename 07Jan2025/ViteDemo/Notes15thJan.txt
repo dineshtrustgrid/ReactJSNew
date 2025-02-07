@@ -1,0 +1,26 @@
+useEffect(function,array of dependencies)  
+case 1: 
+useEffect(()=>{
+    console.log("called every time ,when component is rendered");
+});
+
+important Note : array of dependencies is undefined in case 1.
+
+case 2 :
+
+useEffect(()=>{
+    console.log("Called first time ,component is rendered);
+},[]);
+
+Note : array of dependencies is empty array [] ,it will execute only once on mouting.
+It is equalvalent to componentDidMount();
+
+case 3 :
+
+useEffect(()=>{
+    console.log("Called only when dependencies "count" is modified");
+},[count]);
+
+note : dependencies list will execute on dependencies change.
+
+

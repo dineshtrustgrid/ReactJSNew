@@ -1,0 +1,12 @@
+// Fetch API 
+//common HTTP status code
+1. 200 means - OK( Request suceeded )
+2. 201 means - created ( Resource created)
+3. 204 means - No content (Success but no body)
+4. 400 means - Bad request (it means error from client side)
+5. 401 means - Unauthorized ( Authentication is required)
+6. 403 means - Access denied (forbidden)
+7. 404 means - Page not found
+8. 500 means - server error
+ 
+

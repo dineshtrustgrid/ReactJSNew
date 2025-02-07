@@ -1,0 +1,6 @@
+//optional chaining in javascript
+//optional chaining is a feature in javascript that allow us access properties of an object
+without having to check, whether object is null or undefined
+
+it is reperesented by "?."  this is optional chaining syntax.
+

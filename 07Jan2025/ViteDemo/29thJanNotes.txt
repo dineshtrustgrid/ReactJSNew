@@ -1,0 +1,35 @@
+// SOP - Same origin Policy 
+SOP - RUle that is enforced by browser to controll access to data with in web application
+
+what is Origin ?
+ Origin is defined by this scheme (protocol) Host name - Domain , and port number 
+ ex: https://dinesh.com:443 
+
+Here : https - scheme
+      : dinesh.com - Host
+      : port - 443 
+
+      Scheme + host + port = Origin
+
+CORS - Cross Origin Resource Sharing
+
+https://www.amazon.com - amazon Origin
+
+htpps://www.swiggy.com - swiggy origin 
+
+now, amazon origin to access the data of Swiggy origin , then CORS policy 
+
+ex1: https://dinesh.com/
+     https://dinesh.com/courses
+
+    http://dinesh.com/ 
+
+    http - scheme ,dinesh.com - domain ,port =80
+
+    now , https can not access http because ,port number is different for https ,http
+
+    https://vinod.dinesh.com/ - if anyone has changed like scheme,domain,port , then we cant access the other origin.
+
+      
+
+

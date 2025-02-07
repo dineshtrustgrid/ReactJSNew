@@ -13,10 +13,10 @@ class StateComponent extends React.Component{
         this.state = { count : 0 };
     }
 
-     increase(){
+    increase(){
         this.setState({count : this.state.count +1 }); 
         // update the value setState() is a function
-     }
+    }
      
      render(){
         
